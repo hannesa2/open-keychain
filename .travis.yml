@@ -1,20 +1,13 @@
 language: android
-#jdk: oraclejdk8
+
+jdk: oraclejdk8
+
 env:
   - TEST=unit
 #  - TEST=android ANDROID_TARGET=android-25 ANDROID_ABI=armeabi-v7a ADB_INSTALL_TIMEOUT=10
 
 # force non-container build
 sudo: required
-before_install:
-  - sudo add-apt-repository ppa:openjdk-r/ppa -y
-  - sudo apt-get update
-  - sudo apt-get install -y openjdk-8-jdk
-  - sudo update-alternatives --auto java
-  - sudo update-alternatives --auto javac
-  - export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-  # workaround for https://github.com/travis-ci/travis-ci/issues/8874
-  - yes | sdkmanager "platforms;android-28"
 
 android:
   components:
@@ -31,6 +24,7 @@ android:
     - 'google-gdk-license-.+'
 
 script:
+  - echo "test=${TEST} ANDROID_TARGET=${ANDROID_TARGET} ANDROID_ABI=${ANDROID_ABI}"
   - if [ ${TEST} == "unit" ]; then
     ./gradlew --stacktrace testDebug jacocoTestReport;
     fi
