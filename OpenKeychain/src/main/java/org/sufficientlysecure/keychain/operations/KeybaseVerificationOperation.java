@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.textuality.keybase.lib.KeybaseQuery;
 import com.textuality.keybase.lib.Proof;

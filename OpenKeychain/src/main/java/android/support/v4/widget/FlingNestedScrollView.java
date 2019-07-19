@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package android.support.v4.widget;
+package androidx.core.widget;
 
 
 import java.util.ArrayList;
@@ -27,17 +27,17 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v4.view.AccessibilityDelegateCompat;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.NestedScrollingChild;
-import android.support.v4.view.NestedScrollingChildHelper;
-import android.support.v4.view.NestedScrollingParent;
-import android.support.v4.view.NestedScrollingParentHelper;
-import android.support.v4.view.VelocityTrackerCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.accessibility.AccessibilityEventCompat;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import android.support.v4.view.accessibility.AccessibilityRecordCompat;
+import androidx.core.view.AccessibilityDelegateCompat;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.NestedScrollingChild;
+import androidx.core.view.NestedScrollingChildHelper;
+import androidx.core.view.NestedScrollingParent;
+import androidx.core.view.NestedScrollingParentHelper;
+import androidx.core.view.VelocityTrackerCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.accessibility.AccessibilityEventCompat;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
+import androidx.core.view.accessibility.AccessibilityRecordCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.FocusFinder;

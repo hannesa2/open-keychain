@@ -5,9 +5,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import android.app.NotificationManager;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationCompat.Builder;
+import androidx.annotation.NonNull;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationCompat.Builder;
 
 import androidx.work.Worker;
 import org.sufficientlysecure.keychain.Constants.NotificationIds;

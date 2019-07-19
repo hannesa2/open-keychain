@@ -25,7 +25,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.WorkerThread;
+import androidx.annotation.WorkerThread;
 
 import androidx.work.Constraints.Builder;
 import androidx.work.NetworkType;

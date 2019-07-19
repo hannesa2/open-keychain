@@ -38,7 +38,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
