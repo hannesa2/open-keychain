@@ -21,7 +21,7 @@ dependencies {
     implementation 'org.sufficientlysecure:donations:2.5'
     implementation 'com.squareup.okhttp3:okhttp:3.13.1'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.9.1'
-    implementation 'org.apache.james:apache-mime4j-core:0.8.1'
+    implementation 'org.apache.james:apache-mime4j-core:0.8.3'
     implementation 'org.apache.james:apache-mime4j-dom:0.8.1'
 
     // UI
