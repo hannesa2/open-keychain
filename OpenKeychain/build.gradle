@@ -21,7 +21,7 @@ dependencies {
     implementation 'org.commonjava.googlecode.markdown4j:markdown4j:2.2-cj-1.1'
     implementation 'com.squareup.okhttp3:okhttp:3.14.9'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.9'
-    implementation 'org.apache.james:apache-mime4j-core:0.8.1'
+    implementation 'org.apache.james:apache-mime4j-core:0.8.7'
     implementation 'org.apache.james:apache-mime4j-dom:0.8.1'
     implementation "com.squareup.sqldelight:android-driver:1.5.4"
 
