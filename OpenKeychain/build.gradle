@@ -17,7 +17,7 @@ dependencies {
 
     // JCenter etc.
     implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
-    implementation 'com.google.zxing:core:3.4.0'
+    implementation 'com.google.zxing:core:3.4.1'
     implementation 'org.commonjava.googlecode.markdown4j:markdown4j:2.2-cj-1.1'
     implementation 'com.squareup.okhttp3:okhttp:3.14.9'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.9'
